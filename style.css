@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, "Courier New", Verdana;
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .hero, .randominformation, .quote, .calltoaction, .footer{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.headerbackground, .herobackground, .footerbackground {
+    background-color: #1F2937;
+    color: white;
+} 
+
+.quotebackground {
+    background-color: #E5E7EB;
+}
+
+
+
+/* header */
+.header {
+    flex: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+.header .logo {
+    flex: auto;
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.link, .hero .subtext, .calltoaction .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 50px;
+}
+
+/* footer */
+.footer {
+    padding: 35px 0px;
+    text-align: center;
+}
+
+
+
+/* content */
+.content {
+    flex: auto;
+}
+
+.hero .maintext {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.signupbutton, .calltoaction {
+    color: white;
+    background-color: #3882F6;
+    border: none;
+    font-weight: 900;
+    font-size: 19px;
+    padding: 6px 23px;
+    border-radius: 6px;
+}
+
+.raninforheadertext {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+}
+/* 
+.imageplaceholder {
+    background-color: #6D747D;
+    color: white;
+    width: 650px;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.imageplaceholder {
+    flex: 0 10 auto;
+    background-color: #6D747D;
+    color: white;
+    /* padding: 130px 200px; */
+    width: 50%;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.herocontent {
+    max-width: 35%;
+}
+
+.signupbutton {
+    margin: 10px 0px;
+}
+
+.randominformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+    padding: 55px 0px 125px;
+}
+
+.raninforcontent {
+    display: flex;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+
+.raninforcontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 150px;
+    align-items: center;
+    text-align: center;    
+}
+
+.illustration {
+    flex: auto;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 135px;
+}
+
+.quote .quoteauthor {
+    margin-left: auto;
+    font-size: 23px;
+}
+
+.calltoaction .signupbutton {
+    border: 2px solid white;
+}
+
+.calltoaction {
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 100px;
+    margin: 100px auto 115px;
+}
