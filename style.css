@@ -7,7 +7,7 @@ body {
 }
 
 .header, .hero, .randominformation, .quote, .calltoaction, .footer{
-    max-width: 1200px;
+    max-width: 1050px;
     margin: 0 auto;
 }
 
@@ -65,7 +65,6 @@ ul {
 
 /* content */
 .content {
-    flex: auto;
 }
 
 .hero .maintext {
@@ -110,7 +109,7 @@ ul {
     background-color: #6D747D;
     color: white;
     /* padding: 130px 200px; */
-    width: 50%;
+    width: 600px;
     height: 275px;
     display: flex;
     justify-content: center;
@@ -120,16 +119,19 @@ ul {
 .hero {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     padding: 100px 0px;
 }
 
 .herocontent {
-    max-width: 35%;
+    flex-wrap: wrap;
+    flex: auto;
+    width: 425px;
 }
 
 .signupbutton {
-    margin: 10px 0px;
+    margin: 20px 0px;    
 }
 
 .randominformation {
@@ -180,7 +182,8 @@ ul {
 
 .calltoaction {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 55px 100px;
-    margin: 100px auto 115px;
+    margin: 115px auto 125px;
 }
